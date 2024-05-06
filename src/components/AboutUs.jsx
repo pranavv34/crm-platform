@@ -32,15 +32,17 @@ const Features = () => {
 
         {/* Map */}
         <div className="md:w-1/2">
-          <iframe
-            title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8421499989063!2d78.52951267584969!3d17.37132700326633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98f01bc2d401%3A0xd6107bc012060039!2sSS%20TaxMentors!5e0!3m2!1sen!2sin!4v1715017921390!5m2!1sen!2sin"
-            width="700"
-            height="450"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
+          <div className="map-container">
+            <iframe
+              title="Google Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8421499989063!2d78.52951267584969!3d17.37132700326633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98f01bc2d401%3A0xd6107bc012060039!2sSS%20TaxMentors!5e0!3m2!1sen!2sin!4v1715017921390!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
@@ -48,3 +50,20 @@ const Features = () => {
 };
 
 export default Features;
+
+/* Add this CSS to your stylesheets */
+<style jsx>{`
+  .map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio (height: 9/16 = 0.5625) */
+  }
+
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+`}</style>
