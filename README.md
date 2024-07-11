@@ -8,6 +8,7 @@
 </h1>
 
 <h4 align="center">A Real-time CRM Platform and a landing page developed for SS Tax Mentors utilizing MERN Stack by a team of 6 members.</h4>
+<h6 align="center">Note: Only landing page code is uploaded, main code is hidden for security purposes, as it a real-time project in use.</h6>
 
 <p align="center">
   • <a href="https://www.sstaxmentors.com">Live Website</a> •
