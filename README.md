@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://www.sstaxmentors.com/static/media/logo.ead0aad5451e87c84b19aedfee35b5d9.svg" alt="CRM" width="600"></a>
+  <a href=""><img src="https://www.sstaxmentors.com/static/media/logo.ead0aad5451e87c84b19aedfee35b5d9.svg" alt="CRM" width="600"></a>
 <!--   <br>
 <!--   Markdownify -->
 <!--   <br> -->
